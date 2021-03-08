@@ -1,0 +1,2 @@
+printf.pbi: E:\ARM\res\stm32\usart.h E:\ARM\res\typedef.h \
+  E:\ARM\res\stdio\printf.c

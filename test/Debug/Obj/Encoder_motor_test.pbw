@@ -1,0 +1,6890 @@
+[
+  {
+    "ID": "c:rcc.h@24@macro@_RCC_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_RCC_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "_RCC_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@_RCC",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "_RCC",
+    "location": {
+      "column": "8",
+      "line": "6",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@_RCC@FI@CR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR",
+        "location": {
+          "column": "19",
+          "line": "7",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "CR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@CFGR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR",
+        "location": {
+          "column": "19",
+          "line": "8",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "CFGR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@CIR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CIR",
+        "location": {
+          "column": "19",
+          "line": "9",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "CIR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@APB2RSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB2RSTR",
+        "location": {
+          "column": "19",
+          "line": "10",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "APB2RSTR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@APB1RSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB1RSTR",
+        "location": {
+          "column": "19",
+          "line": "11",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "APB1RSTR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@AHBENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AHBENR",
+        "location": {
+          "column": "19",
+          "line": "12",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "AHBENR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@APB2ENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB2ENR",
+        "location": {
+          "column": "19",
+          "line": "13",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "APB2ENR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@APB1ENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB1ENR",
+        "location": {
+          "column": "19",
+          "line": "14",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "APB1ENR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@BDCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BDCR",
+        "location": {
+          "column": "19",
+          "line": "15",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "BDCR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@CSR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CSR",
+        "location": {
+          "column": "19",
+          "line": "16",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "CSR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@AHBSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AHBSTR",
+        "location": {
+          "column": "19",
+          "line": "17",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "AHBSTR",
+        "origin": "user_include",
+        "scope": "_RCC"
+      },
+      {
+        "ID": "c:@S@_RCC@FI@CFGR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR2",
+        "location": {
+          "column": "19",
+          "line": "18",
+          "path": "E:\\ARM\\res\\stm32\\rcc.h"
+        },
+        "name": "CFGR2",
+        "origin": "user_include",
+        "scope": "_RCC"
+      }
+    ],
+    "name": "_RCC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@RCC",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "RCC",
+    "location": {
+      "column": "23",
+      "line": "21",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "RCC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@552@macro@TIM11EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM11EN",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM11EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@572@macro@TIM10EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM10EN",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM10EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@592@macro@TIM9EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM9EN",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM9EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@612@macro@ADC3EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC3EN",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "ADC3EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@632@macro@USART1EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USART1EN",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "USART1EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@660@macro@TIM8EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM8EN",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM8EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@680@macro@SPI1EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI1EN",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "SPI1EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@700@macro@TIM1EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM1EN",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM1EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@720@macro@ADC2EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC2EN",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "ADC2EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@740@macro@ADC1EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC1EN",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "ADC1EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@759@macro@IOPGEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IOPGEN",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "IOPGEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@778@macro@IOPFEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IOPFEN",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "IOPFEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@797@macro@IOPEEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IOPEEN",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "IOPEEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@816@macro@IOPDEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IOPDEN",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "IOPDEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@835@macro@IOPCEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IOPCEN",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "IOPCEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@854@macro@IOPBEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IOPBEN",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "IOPBEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@873@macro@IOPAEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IOPAEN",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "IOPAEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@892@macro@AFIOEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "AFIOEN",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "AFIOEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@913@macro@MCO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MCO",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "MCO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@933@macro@USBPRE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USBPRE",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "USBPRE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@953@macro@PLLMUL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLLMUL",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLLMUL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@973@macro@PLLXTPRE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLLXTPRE",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLLXTPRE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1001@macro@PLLSRC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLLSRC",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLLSRC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1021@macro@ADCPRE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADCPRE",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "ADCPRE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1041@macro@PPRE2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PPRE2",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PPRE2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1061@macro@PPRE1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PPRE1",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PPRE1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1080@macro@HPRE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HPRE",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HPRE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1099@macro@SWS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SWS",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "SWS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1118@macro@SW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SW",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "SW",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1139@macro@PLLRDY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLLRDY",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLLRDY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1159@macro@PLLON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLLON",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLLON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1179@macro@CSSON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CSSON",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "CSSON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1199@macro@HSEBYP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSEBYP",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSEBYP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1219@macro@HSERDY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSERDY",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSERDY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1239@macro@HSEON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSEON",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSEON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1259@macro@HSICAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSICAL",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSICAL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1278@macro@HSITRIM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSITRIM",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSITRIM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1297@macro@HSIRDY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSIRDY",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSIRDY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1316@macro@HSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSION",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "HSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1337@macro@DACEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DACEN",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "DACEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1357@macro@PWREN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PWREN",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PWREN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1377@macro@BKPEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BKPEN",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "BKPEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1397@macro@CANEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CANEN",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "CANEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1417@macro@USBEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USBEN",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "USBEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1437@macro@I2C2EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C2EN",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "I2C2EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1457@macro@I2C1EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C1EN",
+    "location": {
+      "column": "9",
+      "line": "73",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "I2C1EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1477@macro@UART5EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART5EN",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "UART5EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1497@macro@UART4EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART4EN",
+    "location": {
+      "column": "9",
+      "line": "75",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "UART4EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1517@macro@USART3EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USART3EN",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "USART3EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1545@macro@USART2EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USART2EN",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "USART2EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1573@macro@SPI3EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI3EN",
+    "location": {
+      "column": "9",
+      "line": "78",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "SPI3EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1593@macro@SPI2EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPI2EN",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "SPI2EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1613@macro@WWDGEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WWDGEN",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "WWDGEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1633@macro@TIM14EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM14EN",
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM14EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1652@macro@TIM13EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM13EN",
+    "location": {
+      "column": "9",
+      "line": "82",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM13EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1671@macro@TIM12EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM12EN",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM12EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1690@macro@TIM7EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM7EN",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM7EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1708@macro@TIM6EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM6EN",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM6EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1726@macro@TIM5EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM5EN",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM5EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1744@macro@TIM4EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM4EN",
+    "location": {
+      "column": "9",
+      "line": "87",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM4EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1762@macro@TIM3EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM3EN",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM3EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1780@macro@TIM2EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIM2EN",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "TIM2EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1802@macro@I2S3SRC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2S3SRC",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "I2S3SRC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1822@macro@I2S2SRC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2S2SRC",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "I2S2SRC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1842@macro@PREDIV1SRC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PREDIV1SRC",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PREDIV1SRC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1870@macro@PLL3MUL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLL3MUL",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLL3MUL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1890@macro@PLL2MUL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLL2MUL",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PLL2MUL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1909@macro@PREDIV2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PREDIV2",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PREDIV2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:rcc.h@1928@macro@PREDIV1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PREDIV1",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "E:\\ARM\\res\\stm32\\rcc.h"
+    },
+    "name": "PREDIV1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:pid.h@24@macro@_PID_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_PID_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+    },
+    "name": "_PID_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@PID",
+    "What": "Class",
+    "defdec": "Def",
+    "display": "PID",
+    "location": {
+      "column": "7",
+      "line": "4",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@PID@F@PID#d#d#d#",
+        "What": "CXXConstructor",
+        "defdec": "Dec",
+        "display": "void PID(double, double, double)",
+        "location": {
+          "column": "3",
+          "line": "6",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "PID",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@PID#d#d#d#",
+        "What": "CXXConstructor",
+        "defdec": "Dec",
+        "display": "void PID(double, double, double)",
+        "location": {
+          "column": "3",
+          "line": "6",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "PID",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@setPIDGains#d#d#d#",
+        "What": "CXXMethod",
+        "defdec": "Dec",
+        "display": "void setPIDGains(double, double, double)",
+        "location": {
+          "column": "8",
+          "line": "7",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "setPIDGains",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@setPIDGains#d#d#d#",
+        "What": "CXXMethod",
+        "defdec": "Dec",
+        "display": "void setPIDGains(double, double, double)",
+        "location": {
+          "column": "8",
+          "line": "7",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "setPIDGains",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@setPIDGainsToDefault#",
+        "What": "CXXMethod",
+        "defdec": "Dec",
+        "display": "void setPIDGainsToDefault(void)",
+        "location": {
+          "column": "8",
+          "line": "8",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "setPIDGainsToDefault",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@setPIDGainsToDefault#",
+        "What": "CXXMethod",
+        "defdec": "Dec",
+        "display": "void setPIDGainsToDefault(void)",
+        "location": {
+          "column": "8",
+          "line": "8",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "setPIDGainsToDefault",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@setPIDMaxValue#d#",
+        "What": "CXXMethod",
+        "defdec": "Def",
+        "display": "void setPIDMaxValue(double)",
+        "location": {
+          "column": "8",
+          "line": "9",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "setPIDMaxValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@setPIDValue#d#",
+        "What": "CXXMethod",
+        "defdec": "Def",
+        "display": "void setPIDValue(double)",
+        "location": {
+          "column": "8",
+          "line": "10",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "setPIDValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@setTarget#d#",
+        "What": "CXXMethod",
+        "defdec": "Def",
+        "display": "void setTarget(double)",
+        "location": {
+          "column": "8",
+          "line": "11",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "setTarget",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@setInput#d#",
+        "What": "CXXMethod",
+        "defdec": "Def",
+        "display": "void setInput(double)",
+        "location": {
+          "column": "8",
+          "line": "12",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "setInput",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@setInterval#d#",
+        "What": "CXXMethod",
+        "defdec": "Def",
+        "display": "void setInterval(double)",
+        "location": {
+          "column": "8",
+          "line": "13",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "setInterval",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@clsPValue#",
+        "What": "CXXMethod",
+        "defdec": "Def",
+        "display": "void clsPValue(void)",
+        "location": {
+          "column": "8",
+          "line": "14",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "clsPValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@clsIValue#",
+        "What": "CXXMethod",
+        "defdec": "Def",
+        "display": "void clsIValue(void)",
+        "location": {
+          "column": "8",
+          "line": "15",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "clsIValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@clsDValue#",
+        "What": "CXXMethod",
+        "defdec": "Def",
+        "display": "void clsDValue(void)",
+        "location": {
+          "column": "8",
+          "line": "16",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "clsDValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@clsPIDValues#",
+        "What": "CXXMethod",
+        "defdec": "Def",
+        "display": "void clsPIDValues(void)",
+        "location": {
+          "column": "8",
+          "line": "17",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "clsPIDValues",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@calPIDValue#d#",
+        "What": "CXXMethod",
+        "defdec": "Dec",
+        "display": "double calPIDValue(double)",
+        "location": {
+          "column": "10",
+          "line": "18",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "calPIDValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@calPIDValue#d#",
+        "What": "CXXMethod",
+        "defdec": "Dec",
+        "display": "double calPIDValue(double)",
+        "location": {
+          "column": "10",
+          "line": "18",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "calPIDValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@calPIDValue#",
+        "What": "CXXMethod",
+        "defdec": "Dec",
+        "display": "double calPIDValue(void)",
+        "location": {
+          "column": "10",
+          "line": "19",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "calPIDValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@calPIDValue#",
+        "What": "CXXMethod",
+        "defdec": "Dec",
+        "display": "double calPIDValue(void)",
+        "location": {
+          "column": "10",
+          "line": "19",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "calPIDValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@F@getPIDValue#",
+        "What": "CXXMethod",
+        "defdec": "Def",
+        "display": "double getPIDValue(void)",
+        "location": {
+          "column": "10",
+          "line": "20",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "getPIDValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_target",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_target",
+        "location": {
+          "column": "10",
+          "line": "21",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_target",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_pGain",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_pGain",
+        "location": {
+          "column": "10",
+          "line": "24",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_pGain",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_iGain",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_iGain",
+        "location": {
+          "column": "11",
+          "line": "25",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_iGain",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_dGain",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_dGain",
+        "location": {
+          "column": "11",
+          "line": "26",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_dGain",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_defaultPGain",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_defaultPGain",
+        "location": {
+          "column": "10",
+          "line": "28",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_defaultPGain",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_defaultIGain",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_defaultIGain",
+        "location": {
+          "column": "11",
+          "line": "29",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_defaultIGain",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_defaultDGain",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_defaultDGain",
+        "location": {
+          "column": "11",
+          "line": "30",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_defaultDGain",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_maxValue",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_maxValue",
+        "location": {
+          "column": "10",
+          "line": "32",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_maxValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_PIDValue",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_PIDValue",
+        "location": {
+          "column": "10",
+          "line": "33",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_PIDValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_pValue",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_pValue",
+        "location": {
+          "column": "10",
+          "line": "35",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_pValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_iValue",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_iValue",
+        "location": {
+          "column": "11",
+          "line": "36",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_iValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_dValue",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_dValue",
+        "location": {
+          "column": "11",
+          "line": "37",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_dValue",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_input",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_input",
+        "location": {
+          "column": "10",
+          "line": "38",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_input",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_error",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_error",
+        "location": {
+          "column": "10",
+          "line": "39",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_error",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_pError",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_pError",
+        "location": {
+          "column": "18",
+          "line": "39",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_pError",
+        "origin": "user_include",
+        "scope": "PID"
+      },
+      {
+        "ID": "c:@S@PID@FI@_interval",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_interval",
+        "location": {
+          "column": "10",
+          "line": "41",
+          "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.h"
+        },
+        "name": "_interval",
+        "origin": "user_include",
+        "scope": "PID"
+      }
+    ],
+    "name": "PID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@25@macro@_NVIC_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_NVIC_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "_NVIC_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@68@macro@NVIC_ICTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICTR",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICTR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@121@macro@NVIC_SCSR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_SCSR",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_SCSR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@180@macro@NVIC_SRVR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_SRVR",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_SRVR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@239@macro@NVIC_SCVR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_SCVR",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_SCVR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@298@macro@NVIC_SCALIB",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_SCALIB",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_SCALIB",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@359@macro@NVIC_ISER0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISER0",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISER0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@419@macro@NVIC_ISER1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISER1",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISER1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@479@macro@NVIC_ISER2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISER2",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISER2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@539@macro@NVIC_ISER3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISER3",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISER3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@599@macro@NVIC_ISER4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISER4",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISER4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@659@macro@NVIC_ISER5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISER5",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISER5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@719@macro@NVIC_ISER6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISER6",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISER6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@779@macro@NVIC_ISER7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISER7",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISER7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@841@macro@NVIC_ICER0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICER0",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICER0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@901@macro@NVIC_ICER1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICER1",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICER1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@961@macro@NVIC_ICER2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICER2",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICER2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1021@macro@NVIC_ICER3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICER3",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICER3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1081@macro@NVIC_ICER4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICER4",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICER4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1141@macro@NVIC_ICER5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICER5",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICER5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1201@macro@NVIC_ICER6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICER6",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICER6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1261@macro@NVIC_ICER7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICER7",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICER7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1323@macro@NVIC_ISPR0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISPR0",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISPR0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1383@macro@NVIC_ISPR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISPR1",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISPR1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1443@macro@NVIC_ISPR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISPR2",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISPR2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1503@macro@NVIC_ISPR3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISPR3",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISPR3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1563@macro@NVIC_ISPR4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISPR4",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISPR4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1623@macro@NVIC_ISPR5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISPR5",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISPR5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1683@macro@NVIC_ISPR6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISPR6",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISPR6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1743@macro@NVIC_ISPR7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISPR7",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISPR7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1805@macro@NVIC_ICPR0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICPR0",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICPR0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1865@macro@NVIC_ICPR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICPR1",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICPR1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1925@macro@NVIC_ICPR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICPR2",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICPR2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@1985@macro@NVIC_ICPR3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICPR3",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICPR3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2045@macro@NVIC_ICPR4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICPR4",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICPR4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2105@macro@NVIC_ICPR5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICPR5",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICPR5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2165@macro@NVIC_ICPR6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICPR6",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICPR6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2225@macro@NVIC_ICPR7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICPR7",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICPR7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2287@macro@NVIC_IABR0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IABR0",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IABR0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2347@macro@NVIC_IABR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IABR1",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IABR1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2407@macro@NVIC_IABR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IABR2",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IABR2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2467@macro@NVIC_IABR3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IABR3",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IABR3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2527@macro@NVIC_IABR4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IABR4",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IABR4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2587@macro@NVIC_IABR5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IABR5",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IABR5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2647@macro@NVIC_IABR6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IABR6",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IABR6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2707@macro@NVIC_IABR7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IABR7",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IABR7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2769@macro@NVIC_IPR0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR0",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2828@macro@NVIC_IPR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR1",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2887@macro@NVIC_IPR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR2",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@2946@macro@NVIC_IPR3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR3",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3005@macro@NVIC_IPR4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR4",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3064@macro@NVIC_IPR5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR5",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3123@macro@NVIC_IPR6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR6",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3182@macro@NVIC_IPR7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR7",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3241@macro@NVIC_IPR8",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR8",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3300@macro@NVIC_IPR9",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR9",
+    "location": {
+      "column": "9",
+      "line": "66",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3359@macro@NVIC_IPR10",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR10",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR10",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3419@macro@NVIC_IPR11",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR11",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR11",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3479@macro@NVIC_IPR12",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR12",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR12",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3539@macro@NVIC_IPR13",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR13",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR13",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3599@macro@NVIC_IPR14",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR14",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR14",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3659@macro@NVIC_IPR15",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR15",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR15",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3719@macro@NVIC_IPR16",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR16",
+    "location": {
+      "column": "9",
+      "line": "73",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR16",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3779@macro@NVIC_IPR17",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR17",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR17",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3839@macro@NVIC_IPR18",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR18",
+    "location": {
+      "column": "9",
+      "line": "75",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR18",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3899@macro@NVIC_IPR19",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR19",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR19",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@3959@macro@NVIC_IPR20",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR20",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR20",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4019@macro@NVIC_IPR21",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR21",
+    "location": {
+      "column": "9",
+      "line": "78",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR21",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4079@macro@NVIC_IPR22",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR22",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR22",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4139@macro@NVIC_IPR23",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR23",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR23",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4199@macro@NVIC_IPR24",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR24",
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR24",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4259@macro@NVIC_IPR25",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR25",
+    "location": {
+      "column": "9",
+      "line": "82",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR25",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4319@macro@NVIC_IPR26",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR26",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR26",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4379@macro@NVIC_IPR27",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR27",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR27",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4439@macro@NVIC_IPR28",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR28",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR28",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4499@macro@NVIC_IPR29",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR29",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR29",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4559@macro@NVIC_IPR30",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR30",
+    "location": {
+      "column": "9",
+      "line": "87",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR30",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4619@macro@NVIC_IPR31",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR31",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4679@macro@NVIC_IPR32",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR32",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR32",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4739@macro@NVIC_IPR33",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR33",
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR33",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4799@macro@NVIC_IPR34",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR34",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR34",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4859@macro@NVIC_IPR35",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR35",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR35",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4919@macro@NVIC_IPR36",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR36",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR36",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@4979@macro@NVIC_IPR37",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR37",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR37",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5039@macro@NVIC_IPR38",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR38",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR38",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5099@macro@NVIC_IPR39",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR39",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR39",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5159@macro@NVIC_IPR40",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR40",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR40",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5219@macro@NVIC_IPR41",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR41",
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR41",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5279@macro@NVIC_IPR42",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR42",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR42",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5339@macro@NVIC_IPR43",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR43",
+    "location": {
+      "column": "9",
+      "line": "100",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR43",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5399@macro@NVIC_IPR44",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR44",
+    "location": {
+      "column": "9",
+      "line": "101",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR44",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5459@macro@NVIC_IPR45",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR45",
+    "location": {
+      "column": "9",
+      "line": "102",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR45",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5519@macro@NVIC_IPR46",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR46",
+    "location": {
+      "column": "9",
+      "line": "103",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR46",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5579@macro@NVIC_IPR47",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR47",
+    "location": {
+      "column": "9",
+      "line": "104",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR47",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5639@macro@NVIC_IPR48",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR48",
+    "location": {
+      "column": "9",
+      "line": "105",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR48",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5699@macro@NVIC_IPR49",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR49",
+    "location": {
+      "column": "9",
+      "line": "106",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR49",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5759@macro@NVIC_IPR50",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR50",
+    "location": {
+      "column": "9",
+      "line": "107",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR50",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5819@macro@NVIC_IPR51",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR51",
+    "location": {
+      "column": "9",
+      "line": "108",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR51",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5879@macro@NVIC_IPR52",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR52",
+    "location": {
+      "column": "9",
+      "line": "109",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR52",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5939@macro@NVIC_IPR53",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR53",
+    "location": {
+      "column": "9",
+      "line": "110",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR53",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@5999@macro@NVIC_IPR54",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR54",
+    "location": {
+      "column": "9",
+      "line": "111",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR54",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6059@macro@NVIC_IPR55",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR55",
+    "location": {
+      "column": "9",
+      "line": "112",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR55",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6119@macro@NVIC_IPR56",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR56",
+    "location": {
+      "column": "9",
+      "line": "113",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR56",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6179@macro@NVIC_IPR57",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR57",
+    "location": {
+      "column": "9",
+      "line": "114",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR57",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6239@macro@NVIC_IPR58",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR58",
+    "location": {
+      "column": "9",
+      "line": "115",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR58",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6299@macro@NVIC_IPR59",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR59",
+    "location": {
+      "column": "9",
+      "line": "116",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR59",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6359@macro@NVIC_IPR60",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR60",
+    "location": {
+      "column": "9",
+      "line": "117",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR60",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6419@macro@NVIC_IPR61",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR61",
+    "location": {
+      "column": "9",
+      "line": "118",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR61",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6479@macro@NVIC_IPR62",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR62",
+    "location": {
+      "column": "9",
+      "line": "119",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR62",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6539@macro@NVIC_IPR63",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_IPR63",
+    "location": {
+      "column": "9",
+      "line": "120",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_IPR63",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6601@macro@NVIC_CPUIDBR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_CPUIDBR",
+    "location": {
+      "column": "9",
+      "line": "122",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_CPUIDBR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6668@macro@NVIC_ICSR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ICSR",
+    "location": {
+      "column": "9",
+      "line": "123",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ICSR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6727@macro@NVIC_VTOR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_VTOR",
+    "location": {
+      "column": "9",
+      "line": "124",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_VTOR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6786@macro@NVIC_AIRCR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_AIRCR",
+    "location": {
+      "column": "9",
+      "line": "125",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_AIRCR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6845@macro@NVIC_SCR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_SCR",
+    "location": {
+      "column": "9",
+      "line": "126",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_SCR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6904@macro@NVIC_CCR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_CCR",
+    "location": {
+      "column": "9",
+      "line": "127",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_CCR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@6963@macro@NVIC_SHPR0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_SHPR0",
+    "location": {
+      "column": "9",
+      "line": "128",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_SHPR0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7022@macro@NVIC_SHPR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_SHPR1",
+    "location": {
+      "column": "9",
+      "line": "129",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_SHPR1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7081@macro@NVIC_SHPR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_SHPR2",
+    "location": {
+      "column": "9",
+      "line": "130",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_SHPR2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7140@macro@NVIC_SHCSR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_SHCSR",
+    "location": {
+      "column": "9",
+      "line": "131",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_SHCSR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7199@macro@NVIC_CFSR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_CFSR",
+    "location": {
+      "column": "9",
+      "line": "132",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_CFSR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7258@macro@NVIC_HFSR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_HFSR",
+    "location": {
+      "column": "9",
+      "line": "133",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_HFSR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7317@macro@NVIC_DFSR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_DFSR",
+    "location": {
+      "column": "9",
+      "line": "134",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_DFSR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7376@macro@NVIC_MMAR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_MMAR",
+    "location": {
+      "column": "9",
+      "line": "135",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_MMAR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7435@macro@NVIC_BFAR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_BFAR",
+    "location": {
+      "column": "9",
+      "line": "136",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_BFAR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7494@macro@NVIC_AFSR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_AFSR",
+    "location": {
+      "column": "9",
+      "line": "137",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_AFSR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7555@macro@NVIC_PFR0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_PFR0",
+    "location": {
+      "column": "9",
+      "line": "139",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_PFR0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7614@macro@NVIC_PFR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_PFR1",
+    "location": {
+      "column": "9",
+      "line": "140",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_PFR1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7675@macro@NVIC_DFR0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_DFR0",
+    "location": {
+      "column": "9",
+      "line": "142",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_DFR0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7736@macro@NVIC_AFR0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_AFR0",
+    "location": {
+      "column": "9",
+      "line": "144",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_AFR0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7797@macro@NVIC_MMFR0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_MMFR0",
+    "location": {
+      "column": "9",
+      "line": "146",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_MMFR0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7857@macro@NVIC_MMFR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_MMFR1",
+    "location": {
+      "column": "9",
+      "line": "147",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_MMFR1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7917@macro@NVIC_MMFR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_MMFR2",
+    "location": {
+      "column": "9",
+      "line": "148",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_MMFR2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@7977@macro@NVIC_MMFR3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_MMFR3",
+    "location": {
+      "column": "9",
+      "line": "149",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_MMFR3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8039@macro@NVIC_ISAR0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISAR0",
+    "location": {
+      "column": "9",
+      "line": "151",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISAR0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8099@macro@NVIC_ISAR1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISAR1",
+    "location": {
+      "column": "9",
+      "line": "152",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISAR1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8159@macro@NVIC_ISAR2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISAR2",
+    "location": {
+      "column": "9",
+      "line": "153",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISAR2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8219@macro@NVIC_ISAR3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISAR3",
+    "location": {
+      "column": "9",
+      "line": "154",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISAR3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8279@macro@NVIC_ISAR4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_ISAR4",
+    "location": {
+      "column": "9",
+      "line": "155",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_ISAR4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8341@macro@NVIC_STIR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_STIR",
+    "location": {
+      "column": "9",
+      "line": "157",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_STIR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8402@macro@NVIC_PID4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_PID4",
+    "location": {
+      "column": "9",
+      "line": "159",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_PID4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8461@macro@NVIC_PID5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_PID5",
+    "location": {
+      "column": "9",
+      "line": "160",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_PID5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8520@macro@NVIC_PID6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_PID6",
+    "location": {
+      "column": "9",
+      "line": "161",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_PID6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8579@macro@NVIC_PID7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_PID7",
+    "location": {
+      "column": "9",
+      "line": "162",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_PID7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8638@macro@NVIC_PID0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_PID0",
+    "location": {
+      "column": "9",
+      "line": "163",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_PID0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8697@macro@NVIC_PID1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_PID1",
+    "location": {
+      "column": "9",
+      "line": "164",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_PID1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8756@macro@NVIC_PID2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_PID2",
+    "location": {
+      "column": "9",
+      "line": "165",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_PID2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8815@macro@NVIC_PID3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_PID3",
+    "location": {
+      "column": "9",
+      "line": "166",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_PID3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8876@macro@NVIC_CID0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_CID0",
+    "location": {
+      "column": "9",
+      "line": "168",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_CID0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8935@macro@NVIC_CID1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_CID1",
+    "location": {
+      "column": "9",
+      "line": "169",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_CID1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@8994@macro@NVIC_CID2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_CID2",
+    "location": {
+      "column": "9",
+      "line": "170",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_CID2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:nvic.h@9053@macro@NVIC_CID3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_CID3",
+    "location": {
+      "column": "9",
+      "line": "171",
+      "path": "E:\\ARM\\res\\cortex_m3\\nvic.h"
+    },
+    "name": "NVIC_CID3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@OS_CPU_RCCInit#",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void OS_CPU_RCCInit(void)",
+    "location": {
+      "column": "6",
+      "line": "49",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "OS_CPU_RCCInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@OS_CPU_USARTInit#",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void OS_CPU_USARTInit(void)",
+    "location": {
+      "column": "6",
+      "line": "50",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "OS_CPU_USARTInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@enc",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "enc",
+    "location": {
+      "column": "5",
+      "line": "52",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "enc",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI0_IRQHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void EXTI0_IRQHandler(void)",
+    "location": {
+      "column": "8",
+      "line": "55",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "EXTI0_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_IRQHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_IRQHandler(void)",
+    "location": {
+      "column": "8",
+      "line": "56",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "TIM2_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@pulse",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "pulse",
+    "location": {
+      "column": "18",
+      "line": "59",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "pulse",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@strPulse",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "strPulse",
+    "location": {
+      "column": "18",
+      "line": "60",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "strPulse",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@time",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "time",
+    "location": {
+      "column": "19",
+      "line": "61",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "time",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@preTime",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "preTime",
+    "location": {
+      "column": "19",
+      "line": "62",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "preTime",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@timeFlag",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timeFlag",
+    "location": {
+      "column": "18",
+      "line": "63",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "timeFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@direction",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "direction",
+    "location": {
+      "column": "17",
+      "line": "64",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "direction",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@rpm",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "rpm",
+    "location": {
+      "column": "19",
+      "line": "65",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "rpm",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI0_IRQHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI0_IRQHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "67",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "EXTI0_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_IRQHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_IRQHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "80",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "TIM2_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "99",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@OS_CPU_RCCInit#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void OS_CPU_RCCInit(void)",
+    "location": {
+      "column": "6",
+      "line": "141",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "OS_CPU_RCCInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@OS_CPU_USARTInit#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void OS_CPU_USARTInit(void)",
+    "location": {
+      "column": "6",
+      "line": "161",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\Encoder_motor_test.c"
+    },
+    "name": "OS_CPU_USARTInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@25@macro@_GPIO_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_GPIO_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "_GPIO_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@_GPIO",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "_GPIO",
+    "location": {
+      "column": "8",
+      "line": "6",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@_GPIO@FI@CRL",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CRL",
+        "location": {
+          "column": "19",
+          "line": "7",
+          "path": "E:\\ARM\\res\\stm32\\gpio.h"
+        },
+        "name": "CRL",
+        "origin": "user_include",
+        "scope": "_GPIO"
+      },
+      {
+        "ID": "c:@S@_GPIO@FI@CRH",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CRH",
+        "location": {
+          "column": "19",
+          "line": "8",
+          "path": "E:\\ARM\\res\\stm32\\gpio.h"
+        },
+        "name": "CRH",
+        "origin": "user_include",
+        "scope": "_GPIO"
+      },
+      {
+        "ID": "c:@S@_GPIO@FI@IDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "IDR",
+        "location": {
+          "column": "19",
+          "line": "9",
+          "path": "E:\\ARM\\res\\stm32\\gpio.h"
+        },
+        "name": "IDR",
+        "origin": "user_include",
+        "scope": "_GPIO"
+      },
+      {
+        "ID": "c:@S@_GPIO@FI@ODR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ODR",
+        "location": {
+          "column": "19",
+          "line": "10",
+          "path": "E:\\ARM\\res\\stm32\\gpio.h"
+        },
+        "name": "ODR",
+        "origin": "user_include",
+        "scope": "_GPIO"
+      },
+      {
+        "ID": "c:@S@_GPIO@FI@BSRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BSRR",
+        "location": {
+          "column": "19",
+          "line": "11",
+          "path": "E:\\ARM\\res\\stm32\\gpio.h"
+        },
+        "name": "BSRR",
+        "origin": "user_include",
+        "scope": "_GPIO"
+      },
+      {
+        "ID": "c:@S@_GPIO@FI@BRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BRR",
+        "location": {
+          "column": "19",
+          "line": "12",
+          "path": "E:\\ARM\\res\\stm32\\gpio.h"
+        },
+        "name": "BRR",
+        "origin": "user_include",
+        "scope": "_GPIO"
+      },
+      {
+        "ID": "c:@S@_GPIO@FI@LCKR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "LCKR",
+        "location": {
+          "column": "19",
+          "line": "13",
+          "path": "E:\\ARM\\res\\stm32\\gpio.h"
+        },
+        "name": "LCKR",
+        "origin": "user_include",
+        "scope": "_GPIO"
+      }
+    ],
+    "name": "_GPIO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@GPIOA",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "GPIOA",
+    "location": {
+      "column": "24",
+      "line": "16",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "GPIOA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@GPIOB",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "GPIOB",
+    "location": {
+      "column": "24",
+      "line": "17",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "GPIOB",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@GPIOC",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "GPIOC",
+    "location": {
+      "column": "24",
+      "line": "18",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "GPIOC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@GPIOD",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "GPIOD",
+    "location": {
+      "column": "24",
+      "line": "19",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "GPIOD",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@GPIOE",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "GPIOE",
+    "location": {
+      "column": "24",
+      "line": "20",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "GPIOE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@GPIOF",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "GPIOF",
+    "location": {
+      "column": "24",
+      "line": "21",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "GPIOF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@GPIOG",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "GPIOG",
+    "location": {
+      "column": "24",
+      "line": "22",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "GPIOG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@774@macro@CNF15",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF15",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF15",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@794@macro@CNF14",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF14",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF14",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@814@macro@CNF13",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF13",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF13",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@834@macro@CNF12",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF12",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF12",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@854@macro@CNF11",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF11",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF11",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@874@macro@CNF10",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF10",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF10",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@894@macro@CNF9",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF9",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@913@macro@CNF8",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF8",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@932@macro@CNF7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF7",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@952@macro@CNF6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF6",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@972@macro@CNF5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF5",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@992@macro@CNF4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF4",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1012@macro@CNF3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF3",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1032@macro@CNF2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF2",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1052@macro@CNF1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF1",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1071@macro@CNF0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CNF0",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "CNF0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1092@macro@MODE15",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE15",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE15",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1116@macro@MODE14",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE14",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE14",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1137@macro@MODE13",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE13",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE13",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1158@macro@MODE12",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE12",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE12",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1179@macro@MODE11",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE11",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE11",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1200@macro@MODE10",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE10",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE10",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1220@macro@MODE9",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE9",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1240@macro@MODE8",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE8",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1260@macro@MODE7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE7",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1284@macro@MODE6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE6",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1305@macro@MODE5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE5",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1326@macro@MODE4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE4",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1347@macro@MODE3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE3",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1368@macro@MODE2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE2",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1388@macro@MODE1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE1",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpio.h@1408@macro@MODE0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODE0",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "E:\\ARM\\res\\stm32\\gpio.h"
+    },
+    "name": "MODE0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tim.h@24@macro@_TIM_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TIM_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "_TIM_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@_TIM",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "_TIM",
+    "location": {
+      "column": "8",
+      "line": "6",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@_TIM@FI@CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR1",
+        "location": {
+          "column": "17",
+          "line": "7",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "CR1",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR2",
+        "location": {
+          "column": "17",
+          "line": "8",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "CR2",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@SMCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SMCR",
+        "location": {
+          "column": "17",
+          "line": "9",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "SMCR",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@DIER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DIER",
+        "location": {
+          "column": "17",
+          "line": "10",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "DIER",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@SR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SR",
+        "location": {
+          "column": "17",
+          "line": "11",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "SR",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@EGR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EGR",
+        "location": {
+          "column": "17",
+          "line": "12",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "EGR",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@CCMR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CCMR1",
+        "location": {
+          "column": "17",
+          "line": "13",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "CCMR1",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@CCMR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CCMR2",
+        "location": {
+          "column": "17",
+          "line": "14",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "CCMR2",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@CCER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CCER",
+        "location": {
+          "column": "17",
+          "line": "15",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "CCER",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@CNT",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CNT",
+        "location": {
+          "column": "17",
+          "line": "16",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "CNT",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@PSC",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PSC",
+        "location": {
+          "column": "17",
+          "line": "17",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "PSC",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@ARR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ARR",
+        "location": {
+          "column": "17",
+          "line": "18",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "ARR",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@RCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "RCR",
+        "location": {
+          "column": "17",
+          "line": "19",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "RCR",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@CRR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CRR1",
+        "location": {
+          "column": "17",
+          "line": "20",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "CRR1",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@CRR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CRR2",
+        "location": {
+          "column": "17",
+          "line": "21",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "CRR2",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@CRR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CRR3",
+        "location": {
+          "column": "17",
+          "line": "22",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "CRR3",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@CRR4",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CRR4",
+        "location": {
+          "column": "17",
+          "line": "23",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "CRR4",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@BDTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BDTR",
+        "location": {
+          "column": "17",
+          "line": "24",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "BDTR",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@DCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DCR",
+        "location": {
+          "column": "17",
+          "line": "25",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "DCR",
+        "origin": "user_include",
+        "scope": "_TIM"
+      },
+      {
+        "ID": "c:@S@_TIM@FI@DMAR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DMAR",
+        "location": {
+          "column": "17",
+          "line": "26",
+          "path": "E:\\ARM\\res\\stm32\\tim.h"
+        },
+        "name": "DMAR",
+        "origin": "user_include",
+        "scope": "_TIM"
+      }
+    ],
+    "name": "_TIM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM1",
+    "location": {
+      "column": "23",
+      "line": "29",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM2",
+    "location": {
+      "column": "23",
+      "line": "30",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM3",
+    "location": {
+      "column": "23",
+      "line": "31",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM4",
+    "location": {
+      "column": "23",
+      "line": "32",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM5",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM5",
+    "location": {
+      "column": "23",
+      "line": "33",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM6",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM6",
+    "location": {
+      "column": "23",
+      "line": "34",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM7",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM7",
+    "location": {
+      "column": "23",
+      "line": "35",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM8",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM8",
+    "location": {
+      "column": "23",
+      "line": "36",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM9",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM9",
+    "location": {
+      "column": "23",
+      "line": "37",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM10",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM10",
+    "location": {
+      "column": "23",
+      "line": "38",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM10",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM11",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM11",
+    "location": {
+      "column": "23",
+      "line": "39",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM11",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM12",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM12",
+    "location": {
+      "column": "23",
+      "line": "40",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM12",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM13",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM13",
+    "location": {
+      "column": "23",
+      "line": "41",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM13",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@TIM14",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TIM14",
+    "location": {
+      "column": "23",
+      "line": "42",
+      "path": "E:\\ARM\\res\\stm32\\tim.h"
+    },
+    "name": "TIM14",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@28@macro@_TYPEDEF_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TYPEDEF_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "_TYPEDEF_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@uint8_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned char",
+    "location": {
+      "column": "33",
+      "line": "4",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "uint8_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@uint16_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned short",
+    "location": {
+      "column": "33",
+      "line": "5",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "uint16_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@uint32_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned long",
+    "location": {
+      "column": "33",
+      "line": "6",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "uint32_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@uint64_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned long long",
+    "location": {
+      "column": "33",
+      "line": "7",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "uint64_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@int8_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "char",
+    "location": {
+      "column": "33",
+      "line": "9",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "int8_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@int16_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "short",
+    "location": {
+      "column": "33",
+      "line": "10",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "int16_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@int32_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "int",
+    "location": {
+      "column": "33",
+      "line": "11",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "int32_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@T@int64_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "long long",
+    "location": {
+      "column": "33",
+      "line": "12",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "int64_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@392@macro@true",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "true",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "true",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:typedef.h@411@macro@false",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "false",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "E:\\ARM\\res\\typedef.h"
+    },
+    "name": "false",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@putc#C#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "char putc(char)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "E:\\ARM\\res\\stdio\\print.c"
+    },
+    "name": "putc",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getc#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "char getc(void)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "E:\\ARM\\res\\stdio\\print.c"
+    },
+    "name": "getc",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:print.c@537@F@getc#@c",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "c",
+    "location": {
+      "column": "10",
+      "line": "24",
+      "path": "E:\\ARM\\res\\stdio\\print.c"
+    },
+    "name": "c",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getc_nb#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "char getc_nb(void)",
+    "location": {
+      "column": "6",
+      "line": "29",
+      "path": "E:\\ARM\\res\\stdio\\print.c"
+    },
+    "name": "getc_nb",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:print.c@608@F@getc_nb#@c",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "c",
+    "location": {
+      "column": "7",
+      "line": "30",
+      "path": "E:\\ARM\\res\\stdio\\print.c"
+    },
+    "name": "c",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@puts#*1C#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void puts(const char *)",
+    "location": {
+      "column": "6",
+      "line": "41",
+      "path": "E:\\ARM\\res\\stdio\\print.c"
+    },
+    "name": "puts",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:print.c@772@F@puts#*1C#@c",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "c",
+    "location": {
+      "column": "8",
+      "line": "42",
+      "path": "E:\\ARM\\res\\stdio\\print.c"
+    },
+    "name": "c",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:print.c@787@F@puts#*1C#@p",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "p",
+    "location": {
+      "column": "16",
+      "line": "43",
+      "path": "E:\\ARM\\res\\stdio\\print.c"
+    },
+    "name": "p",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@putn#K#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void putn(int64_t)",
+    "location": {
+      "column": "6",
+      "line": "48",
+      "path": "E:\\ARM\\res\\stdio\\print.c"
+    },
+    "name": "putn",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:print.c@892@F@putn#K#@buf",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "buf",
+    "location": {
+      "column": "8",
+      "line": "49",
+      "path": "E:\\ARM\\res\\stdio\\print.c"
+    },
+    "name": "buf",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:print.c@915@F@putn#K#@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "50",
+      "path": "E:\\ARM\\res\\stdio\\print.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:exti.h@25@macro@_EXTI_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_EXTI_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\stm32\\exti.h"
+    },
+    "name": "_EXTI_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@_EXTI",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "_EXTI",
+    "location": {
+      "column": "8",
+      "line": "6",
+      "path": "E:\\ARM\\res\\stm32\\exti.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@_EXTI@FI@IMR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "IMR",
+        "location": {
+          "column": "19",
+          "line": "7",
+          "path": "E:\\ARM\\res\\stm32\\exti.h"
+        },
+        "name": "IMR",
+        "origin": "user_include",
+        "scope": "_EXTI"
+      },
+      {
+        "ID": "c:@S@_EXTI@FI@EMR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EMR",
+        "location": {
+          "column": "19",
+          "line": "8",
+          "path": "E:\\ARM\\res\\stm32\\exti.h"
+        },
+        "name": "EMR",
+        "origin": "user_include",
+        "scope": "_EXTI"
+      },
+      {
+        "ID": "c:@S@_EXTI@FI@RTSR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "RTSR",
+        "location": {
+          "column": "19",
+          "line": "9",
+          "path": "E:\\ARM\\res\\stm32\\exti.h"
+        },
+        "name": "RTSR",
+        "origin": "user_include",
+        "scope": "_EXTI"
+      },
+      {
+        "ID": "c:@S@_EXTI@FI@FTSR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "FTSR",
+        "location": {
+          "column": "19",
+          "line": "10",
+          "path": "E:\\ARM\\res\\stm32\\exti.h"
+        },
+        "name": "FTSR",
+        "origin": "user_include",
+        "scope": "_EXTI"
+      },
+      {
+        "ID": "c:@S@_EXTI@FI@SWIER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SWIER",
+        "location": {
+          "column": "19",
+          "line": "11",
+          "path": "E:\\ARM\\res\\stm32\\exti.h"
+        },
+        "name": "SWIER",
+        "origin": "user_include",
+        "scope": "_EXTI"
+      },
+      {
+        "ID": "c:@S@_EXTI@FI@PR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PR",
+        "location": {
+          "column": "19",
+          "line": "12",
+          "path": "E:\\ARM\\res\\stm32\\exti.h"
+        },
+        "name": "PR",
+        "origin": "user_include",
+        "scope": "_EXTI"
+      }
+    ],
+    "name": "_EXTI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EXTI",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "EXTI",
+    "location": {
+      "column": "24",
+      "line": "15",
+      "path": "E:\\ARM\\res\\stm32\\exti.h"
+    },
+    "name": "EXTI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@26@macro@_USART_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_USART_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "_USART_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@_USART",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "_USART",
+    "location": {
+      "column": "8",
+      "line": "23",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@_USART@FI@SR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "SR",
+        "location": {
+          "column": "12",
+          "line": "24",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "SR",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@DR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DR",
+        "location": {
+          "column": "12",
+          "line": "25",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "DR",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@BRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BRR",
+        "location": {
+          "column": "12",
+          "line": "26",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "BRR",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR1",
+        "location": {
+          "column": "12",
+          "line": "27",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "CR1",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR2",
+        "location": {
+          "column": "12",
+          "line": "28",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "CR2",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@CR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR3",
+        "location": {
+          "column": "12",
+          "line": "29",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "CR3",
+        "origin": "user_include",
+        "scope": "_USART"
+      },
+      {
+        "ID": "c:@S@_USART@FI@GTPR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GTPR",
+        "location": {
+          "column": "12",
+          "line": "30",
+          "path": "E:\\ARM\\res\\stm32\\usart.h"
+        },
+        "name": "GTPR",
+        "origin": "user_include",
+        "scope": "_USART"
+      }
+    ],
+    "name": "_USART",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@USART1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "USART1",
+    "location": {
+      "column": "25",
+      "line": "33",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "USART1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@USART2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "USART2",
+    "location": {
+      "column": "25",
+      "line": "34",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "USART2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@USART3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "USART3",
+    "location": {
+      "column": "25",
+      "line": "35",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "USART3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@UART4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "UART4",
+    "location": {
+      "column": "25",
+      "line": "36",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "UART4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@UART5",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "UART5",
+    "location": {
+      "column": "25",
+      "line": "37",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "UART5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1332@macro@CTS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CTS",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "CTS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1351@macro@LBD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LBD",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "LBD",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1370@macro@TXE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TXE",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "TXE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1389@macro@TC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TC",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "TC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1408@macro@RXEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RXEN",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "RXEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1427@macro@IDLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IDLE",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "IDLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1446@macro@ORE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ORE",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "ORE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1465@macro@NE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NE",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "NE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1484@macro@FE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FE",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "FE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1503@macro@PE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PE",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "PE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1562@macro@DIV_Mantissa",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIV_Mantissa",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "DIV_Mantissa",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1589@macro@DIV_Fraction",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIV_Fraction",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "DIV_Fraction",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1636@macro@UE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UE",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "UE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1656@macro@M",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "M",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "M",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1676@macro@WAKE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WAKE",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "WAKE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1696@macro@PCE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PCE",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "PCE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1716@macro@PS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PS",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "PS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1735@macro@PEIE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PEIE",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "PEIE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1754@macro@TXEIE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TXEIE",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "TXEIE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1773@macro@TCIE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TCIE",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "TCIE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1792@macro@RXNEIE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RXNEIE",
+    "location": {
+      "column": "9",
+      "line": "66",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "RXNEIE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1811@macro@IDLEIE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IDLEIE",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "IDLEIE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1830@macro@TE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TE",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "TE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1849@macro@RE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RE",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "RE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1868@macro@RWU",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RWU",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "RWU",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1887@macro@SBK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SBK",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "SBK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1925@macro@LINEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LINEN",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "LINEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1945@macro@STOP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STOP",
+    "location": {
+      "column": "9",
+      "line": "75",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "STOP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1965@macro@CLKEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLKEN",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "CLKEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@1985@macro@CPOL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CPOL",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "CPOL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2005@macro@CPHA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CPHA",
+    "location": {
+      "column": "9",
+      "line": "78",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "CPHA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2024@macro@LBCL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LBCL",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "LBCL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2043@macro@LBDIE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LBDIE",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "LBDIE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2062@macro@LBDL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LBDL",
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "LBDL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2081@macro@ADD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADD",
+    "location": {
+      "column": "9",
+      "line": "82",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "ADD",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2119@macro@CTSIE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CTSIE",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "CTSIE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2139@macro@CTSE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CTSE",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "CTSE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2158@macro@RTSE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RTSE",
+    "location": {
+      "column": "9",
+      "line": "87",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "RTSE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2177@macro@DMAT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DMAT",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "DMAT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2196@macro@DMAR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DMAR",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "DMAR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2215@macro@SCEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SCEN",
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "SCEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2234@macro@NACK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NACK",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "NACK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2253@macro@HDSEL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HDSEL",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "HDSEL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2272@macro@IRLP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IRLP",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "IRLP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2291@macro@IREN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IREN",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "IREN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2310@macro@EIE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EIE",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "EIE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2349@macro@GT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GT",
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "GT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usart.h@2368@macro@USART_PSC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USART_PSC",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "E:\\ARM\\res\\stm32\\usart.h"
+    },
+    "name": "USART_PSC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:afio.h@25@macro@_AFIO_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_AFIO_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\stm32\\afio.h"
+    },
+    "name": "_AFIO_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@_AFIO",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "_AFIO",
+    "location": {
+      "column": "8",
+      "line": "6",
+      "path": "E:\\ARM\\res\\stm32\\afio.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@_AFIO@FI@EVCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EVCR",
+        "location": {
+          "column": "19",
+          "line": "7",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "EVCR",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@MAPR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "MAPR",
+        "location": {
+          "column": "19",
+          "line": "8",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "MAPR",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@EXTICR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EXTICR1",
+        "location": {
+          "column": "19",
+          "line": "9",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "EXTICR1",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@EXTICR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EXTICR2",
+        "location": {
+          "column": "19",
+          "line": "10",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "EXTICR2",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@EXTICR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EXTICR3",
+        "location": {
+          "column": "19",
+          "line": "11",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "EXTICR3",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@EXTICR4",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "EXTICR4",
+        "location": {
+          "column": "19",
+          "line": "12",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "EXTICR4",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      },
+      {
+        "ID": "c:@S@_AFIO@FI@MAPR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "MAPR2",
+        "location": {
+          "column": "19",
+          "line": "13",
+          "path": "E:\\ARM\\res\\stm32\\afio.h"
+        },
+        "name": "MAPR2",
+        "origin": "user_include",
+        "scope": "_AFIO"
+      }
+    ],
+    "name": "_AFIO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@AFIO",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "AFIO",
+    "location": {
+      "column": "24",
+      "line": "16",
+      "path": "E:\\ARM\\res\\stm32\\afio.h"
+    },
+    "name": "AFIO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:print.h@27@macro@_PRINTF_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_PRINTF_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\ARM\\res\\stdio\\print.h"
+    },
+    "name": "_PRINTF_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:print.h@48@macro@EOF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EOF",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "E:\\ARM\\res\\stdio\\print.h"
+    },
+    "name": "EOF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:print.h@65@macro@NULL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NULL",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "E:\\ARM\\res\\stdio\\print.h"
+    },
+    "name": "NULL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@putc#C#",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char putc(char)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "E:\\ARM\\res\\stdio\\print.h"
+    },
+    "name": "putc",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getc#",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char getc(void)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "E:\\ARM\\res\\stdio\\print.h"
+    },
+    "name": "getc",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getc_nb#",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char getc_nb(void)",
+    "location": {
+      "column": "6",
+      "line": "9",
+      "path": "E:\\ARM\\res\\stdio\\print.h"
+    },
+    "name": "getc_nb",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@puts#*1C#",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void puts(const char *)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "E:\\ARM\\res\\stdio\\print.h"
+    },
+    "name": "puts",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@putn#K#",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void putn(int64_t)",
+    "location": {
+      "column": "6",
+      "line": "11",
+      "path": "E:\\ARM\\res\\stdio\\print.h"
+    },
+    "name": "putn",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@PID@F@PID#d#d#d#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PID(double, double, double)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.c"
+    },
+    "name": "PID",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@PID@F@setPIDGains#d#d#d#",
+    "What": "CXXMethod",
+    "defdec": "Def",
+    "display": "void setPIDGains(double, double, double)",
+    "location": {
+      "column": "11",
+      "line": "10",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.c"
+    },
+    "name": "setPIDGains",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@PID@F@setPIDGainsToDefault#",
+    "What": "CXXMethod",
+    "defdec": "Def",
+    "display": "void setPIDGainsToDefault(void)",
+    "location": {
+      "column": "11",
+      "line": "16",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.c"
+    },
+    "name": "setPIDGainsToDefault",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@PID@F@calPIDValue#d#",
+    "What": "CXXMethod",
+    "defdec": "Def",
+    "display": "double calPIDValue(double)",
+    "location": {
+      "column": "13",
+      "line": "22",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.c"
+    },
+    "name": "calPIDValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@PID@F@calPIDValue#",
+    "What": "CXXMethod",
+    "defdec": "Def",
+    "display": "double calPIDValue(void)",
+    "location": {
+      "column": "13",
+      "line": "27",
+      "path": "E:\\ARM\\Projects\\Encoder_motor\\test\\pid.c"
+    },
+    "name": "calPIDValue",
+    "origin": "project_file",
+    "scope": null
+  }
+]

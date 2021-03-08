@@ -1,0 +1,6 @@
+Encoder_motor_test.pbi: E:\ARM\res\stdio\print.h E:\ARM\res\stm32\usart.h \
+  E:\ARM\res\stdio\print.c E:\ARM\res\cortex_m3\nvic.h \
+  E:\ARM\res\stm32\tim.h E:\ARM\res\stm32\afio.h E:\ARM\res\stm32\rcc.h \
+  E:\ARM\res\stm32\exti.h E:\ARM\res\typedef.h E:\ARM\res\stm32\gpio.h \
+  E:\ARM\Projects\Encoder_motor\test\pid.h \
+  E:\ARM\Projects\Encoder_motor\test\Encoder_motor_test.c

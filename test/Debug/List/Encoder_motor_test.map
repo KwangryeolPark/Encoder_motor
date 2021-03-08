@@ -1,0 +1,377 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  01/Mar/2021  20:05:53
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        E:\ARM\Projects\Encoder_motor\test\Debug\Exe\Encoder_motor_test.out
+#    Map file     =
+#        E:\ARM\Projects\Encoder_motor\test\Debug\List\Encoder_motor_test.map
+#    Command line =
+#        -f C:\Users\pkr12\AppData\Local\Temp\EW25C6.tmp
+#        (E:\ARM\Projects\Encoder_motor\test\Debug\Obj\Encoder_motor_test.o
+#        E:\ARM\Projects\Encoder_motor\test\Debug\Obj\pid.o
+#        E:\ARM\Projects\Encoder_motor\test\Debug\Obj\startup_stm32f10x_hd_vl.o
+#        --no_out_extension -o
+#        E:\ARM\Projects\Encoder_motor\test\Debug\Exe\Encoder_motor_test.out
+#        --map
+#        E:\ARM\Projects\Encoder_motor\test\Debug\List\Encoder_motor_test.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\config\linker\ST\stm32f103xE.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__CPP_Exceptions              = Disabled
+__CPP_Language                = C++14
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+__dlib_version                = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 4K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section                Kind         Address    Size  Object
+  -------                ----         -------    ----  ------
+"A0":                                           0x134
+  .intvec                ro code   0x800'0000   0x134  startup_stm32f10x_hd_vl.o [1]
+                                 - 0x800'0134   0x134
+
+"P1":                                          0x114c
+  .text                  ro code   0x800'0134   0x3f0  Encoder_motor_test.o [1]
+  .text                  ro code   0x800'0524   0x126  pid.o [1]
+  .text                  ro code   0x800'064a    0x14  memset.o [4]
+  .text                  ro code   0x800'065e    0x3a  zero_init3.o [4]
+  .text                  ro code   0x800'0698   0x274  I64DivMod.o [4]
+  .text                  ro code   0x800'090c     0x6  Encoder_motor_test.o [1]
+  .text                  ro code   0x800'0912    0x2e  copy_init3.o [4]
+  .text                  ro code   0x800'0940    0x1a  U32ToDbl.o [3]
+  .rodata                const     0x800'095a     0x1  unwind_debug.o [5]
+  .text                  ro code   0x800'095c    0x5c  DblToS64.o [3]
+  .text                  ro code   0x800'09b8    0xe2  DblSub.o [3]
+  .text                  ro code   0x800'0a9c   0x1a2  DblMul.o [3]
+  .text                  ro code   0x800'0c40   0x17a  DblAdd.o [3]
+  .text                  ro code   0x800'0dbc   0x246  DblDiv.o [3]
+  .text                  ro code   0x800'1004    0x66  ABImemset.o [4]
+  .text                  ro code   0x800'106c     0x2  I64DivZer.o [4]
+  .text                  ro code   0x800'1070    0x28  data_init.o [4]
+  .iar.init_table        const     0x800'1098    0x28  - Linker created -
+  .text                  ro code   0x800'10c0    0x20  cmain_call_ctors.o [4]
+  .text                  ro code   0x800'10e0    0x18  cppinit.o [2]
+  .text                  ro code   0x800'10f8    0x1e  cmain.o [4]
+  .text                  ro code   0x800'1116     0x4  low_level_init.o [2]
+  .text                  ro code   0x800'111a     0x4  exit.o [2]
+  .text                  ro code   0x800'1120     0xa  cexit.o [4]
+  .text                  ro code   0x800'112c    0x14  exit.o [5]
+  Initializer bytes      const     0x800'1140    0x20  <for P2-1>
+  .text                  ro code   0x800'1160    0x1c  cstartup_M.o [4]
+  .text                  ro code   0x800'117c     0x8  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1184     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1188     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'118c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1190     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1194     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1198     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'119c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11a0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11a4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11a8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11ac     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11b0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11b4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11b8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11bc     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11c0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11c4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11c8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11cc     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11d0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11d4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11d8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11dc     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11e0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11e4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11e8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11ec     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11f0     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11f4     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11f8     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'11fc     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1200     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1204     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1208     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'120c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1210     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1214     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1218     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'121c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1220     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1224     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1228     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'122c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1230     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1234     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1238     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'123c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1240     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1244     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1248     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'124c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1250     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1254     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1258     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'125c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1260     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1264     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1268     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'126c     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1270     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1274     0x4  startup_stm32f10x_hd_vl.o [1]
+  .text                  ro code   0x800'1278     0x4  startup_stm32f10x_hd_vl.o [1]
+  SHT$$PREINIT_ARRAY               0x800'127c     0x0  <Block>
+  SHT$$INIT_ARRAY                  0x800'127c     0x4  <Block>
+    .init_array          const     0x800'127c     0x4  Encoder_motor_test.o [1]
+  __iar_tls$$INIT_ARRAY            0x800'1280     0x0  <Block>
+  .rodata                const     0x800'1280     0x0  zero_init3.o [4]
+  .rodata                const     0x800'1280     0x0  copy_init3.o [4]
+                                 - 0x800'1280  0x114c
+
+"P2", part 1 of 3:                               0x20
+  P2-1                            0x2000'0000    0x1d  <Init block>
+    .data                inited   0x2000'0000     0x4  Encoder_motor_test.o [1]
+    .data                inited   0x2000'0004     0x4  Encoder_motor_test.o [1]
+    .data                inited   0x2000'0008     0x4  Encoder_motor_test.o [1]
+    .data                inited   0x2000'000c     0x4  Encoder_motor_test.o [1]
+    .data                inited   0x2000'0010     0x4  Encoder_motor_test.o [1]
+    .data                inited   0x2000'0014     0x4  Encoder_motor_test.o [1]
+    .data                inited   0x2000'0018     0x4  Encoder_motor_test.o [1]
+    .data                inited   0x2000'001c     0x1  Encoder_motor_test.o [1]
+                                - 0x2000'001d    0x1d
+
+"P2", part 2 of 3:                               0x94
+  .bss                   zero     0x2000'0020    0x80  Encoder_motor_test.o [1]
+  .bss                   zero     0x2000'00a0     0x4  Encoder_motor_test.o [1]
+  .bss                   zero     0x2000'00a4     0x4  Encoder_motor_test.o [1]
+  .bss                   zero     0x2000'00a8     0x4  Encoder_motor_test.o [1]
+  .bss                   zero     0x2000'00ac     0x4  Encoder_motor_test.o [1]
+  .bss                   zero     0x2000'00b0     0x2  Encoder_motor_test.o [1]
+  .bss                   zero     0x2000'00b2     0x1  Encoder_motor_test.o [1]
+                                - 0x2000'00b3    0x93
+
+"P2", part 3 of 3:                             0x1000
+  CSTACK                          0x2000'00b8  0x1000  <Block>
+    CSTACK               uninit   0x2000'00b8  0x1000  <Block tail>
+                                - 0x2000'10b8  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'1280   0x807'ffff  0x7'ed80
+  0x2000'00b4  0x2000'00b7       0x4
+  0x2000'10b8  0x2000'ffff    0xef48
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x93:
+          0x2000'0020  0x93
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x20 (110% of destination):
+           0x800'1140  0x20
+    1 destination range, total size 0x1d:
+          0x2000'0000  0x1d
+
+Extra (__iar_cstart_call_ctors)
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                     ro code  ro data  rw data
+    ------                     -------  -------  -------
+command line/config:
+    ----------------------------------------------------
+    Total:
+
+E:\ARM\Projects\Encoder_motor\test\Debug\Obj: [1]
+    Encoder_motor_test.o         1'014       33      176
+    pid.o                          294
+    startup_stm32f10x_hd_vl.o      564
+    ----------------------------------------------------
+    Total:                       1'872       33      176
+
+dl7M_tln.a: [2]
+    cppinit.o                       24
+    exit.o                           4
+    low_level_init.o                 4
+    ----------------------------------------------------
+    Total:                          32
+
+m7M_tl.a: [3]
+    DblAdd.o                       378
+    DblDiv.o                       582
+    DblMul.o                       418
+    DblSub.o                       226
+    DblToS64.o                      92
+    U32ToDbl.o                      26
+    ----------------------------------------------------
+    Total:                       1'722
+
+rt7M_tl.a: [4]
+    ABImemset.o                    102
+    I64DivMod.o                    628
+    I64DivZer.o                      2
+    cexit.o                         10
+    cmain.o                         30
+    cmain_call_ctors.o              32
+    copy_init3.o                    46
+    cstartup_M.o                    28
+    data_init.o                     40
+    memset.o                        20
+    zero_init3.o                    58
+    ----------------------------------------------------
+    Total:                         996
+
+shb_l.a: [5]
+    exit.o                          20
+    unwind_debug.o                            1
+    ----------------------------------------------------
+    Total:                          20        1
+
+    Gaps                            17
+    Linker created                           43    4'096
+--------------------------------------------------------
+    Grand Total:                 4'659       77    4'272
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0x800'1098         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'10c0         --   Gb  - Linker created -
+?main                    0x800'10f9        Code  Gb  cmain.o [4]
+AFIO                    0x2000'0010   0x4  Data  Gb  Encoder_motor_test.o [1]
+CSTACK$$Base            0x2000'00b8         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'10b8         --   Gb  - Linker created -
+EXTI                    0x2000'0008   0x4  Data  Gb  Encoder_motor_test.o [1]
+EXTI0_IRQHandler         0x800'021d  0x6a  Code  Gb  Encoder_motor_test.o [1]
+GPIOA                   0x2000'0000   0x4  Data  Gb  Encoder_motor_test.o [1]
+GPIOG                   0x2000'0004   0x4  Data  Gb  Encoder_motor_test.o [1]
+OS_CPU_RCCInit()         0x800'03eb  0xa4  Code  Gb  Encoder_motor_test.o [1]
+OS_CPU_USARTInit()       0x800'048f  0x42  Code  Gb  Encoder_motor_test.o [1]
+PID::PID(double, double, double)
+                         0x800'0525  0x72  Code  Gb  pid.o [1]
+PID::calPIDValue()       0x800'05b1  0x9a  Code  Gb  pid.o [1]
+PID::calPIDValue(double)
+                         0x800'05a5   0xc  Code  Gb  pid.o [1]
+PID::setTarget(double)   0x800'090d   0x6  Code  Gb  Encoder_motor_test.o [1]
+RCC                     0x2000'000c   0x4  Data  Gb  Encoder_motor_test.o [1]
+Region$$Table$$Base      0x800'1098         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'10c0         --   Gb  - Linker created -
+SHT$$INIT_ARRAY$$Base    0x800'127c         --   Gb  - Linker created -
+SHT$$INIT_ARRAY$$Limit   0x800'1280         --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Base
+                         0x800'127c         --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Limit
+                         0x800'127c         --   Gb  - Linker created -
+TIM2                    0x2000'0014   0x4  Data  Gb  Encoder_motor_test.o [1]
+TIM2_IRQHandler          0x800'0287  0x70  Code  Gb  Encoder_motor_test.o [1]
+USART1                  0x2000'0018   0x4  Data  Gb  Encoder_motor_test.o [1]
+__aeabi_d2lz             0x800'095d        Code  Gb  DblToS64.o [3]
+__aeabi_dadd             0x800'0c41        Code  Gb  DblAdd.o [3]
+__aeabi_ddiv             0x800'0dbd        Code  Gb  DblDiv.o [3]
+__aeabi_dmul             0x800'0a9d        Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x800'09b9        Code  Gb  DblSub.o [3]
+__aeabi_ldiv0            0x800'106d        Code  Gb  I64DivZer.o [4]
+__aeabi_ldivmod          0x800'0699        Code  Gb  I64DivMod.o [4]
+__aeabi_memset           0x800'1005        Code  Gb  ABImemset.o [4]
+__aeabi_ui2d             0x800'0941        Code  Gb  U32ToDbl.o [3]
+__aeabi_uldivmod         0x800'06dd        Code  Gb  I64DivMod.o [4]
+__call_ctors             0x800'10e1  0x18  Code  Gb  cppinit.o [2]
+__cmain                  0x800'10f9        Code  Gb  cmain.o [4]
+__exit                   0x800'112d  0x14  Code  Gb  exit.o [5]
+__iar_Memset             0x800'1005        Code  Gb  ABImemset.o [4]
+__iar_Memset_word        0x800'100d        Code  Gb  ABImemset.o [4]
+__iar_copy_init3         0x800'0913  0x2e  Code  Gb  copy_init3.o [4]
+__iar_cstart_call_ctors
+                         0x800'10c1  0x20  Code  Gb  cmain_call_ctors.o [4]
+__iar_dadd               0x800'09c9        Code  Gb  DblSub.o [3]
+__iar_data_init3         0x800'1071  0x28  Code  Gb  data_init.o [4]
+__iar_debug_exceptions   0x800'095a   0x1  Data  Gb  unwind_debug.o [5]
+__iar_dsub               0x800'0c51        Code  Gb  DblAdd.o [3]
+__iar_dsubStart          0x800'0c63        Code  Gb  DblAdd.o [3]
+__iar_program_start      0x800'1161        Code  Gb  cstartup_M.o [4]
+__iar_tls$$INIT_ARRAY$$Base
+                         0x800'1280         --   Gb  - Linker created -
+__iar_tls$$INIT_ARRAY$$Limit
+                         0x800'1280         --   Gb  - Linker created -
+__iar_zero_init3         0x800'065f  0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'1117   0x4  Code  Gb  low_level_init.o [2]
+__sti__routine           0x800'0135  0x28  Code  Lc  Encoder_motor_test.o [1]
+__vector_table           0x800'0000        Data  Gb  startup_stm32f10x_hd_vl.o [1]
+_call_main               0x800'1105        Code  Gb  cmain.o [4]
+_exit                    0x800'1121        Code  Gb  cexit.o [4]
+_main                    0x800'110f        Code  Gb  cmain.o [4]
+direction               0x2000'00b2   0x1  Data  Gb  Encoder_motor_test.o [1]
+enc                     0x2000'0020  0x80  Data  Gb  Encoder_motor_test.o [1]
+exit                     0x800'111b   0x4  Code  Gb  exit.o [2]
+main                     0x800'02f7  0xf4  Code  Gb  Encoder_motor_test.o [1]
+memset                   0x800'064b  0x14  Code  Gb  memset.o [4]
+preTime                 0x2000'00ac   0x4  Data  Gb  Encoder_motor_test.o [1]
+pulse                   0x2000'00a0   0x4  Data  Gb  Encoder_motor_test.o [1]
+putc(char)               0x800'015d  0x4a  Code  Gb  Encoder_motor_test.o [1]
+putn(long long)          0x800'01a7  0x76  Code  Gb  Encoder_motor_test.o [1]
+rpm                     0x2000'00b0   0x2  Data  Gb  Encoder_motor_test.o [1]
+strPulse                0x2000'00a4   0x4  Data  Gb  Encoder_motor_test.o [1]
+time                    0x2000'00a8   0x4  Data  Gb  Encoder_motor_test.o [1]
+timeFlag                0x2000'001c   0x1  Data  Gb  Encoder_motor_test.o [1]
+
+
+[1] = E:\ARM\Projects\Encoder_motor\test\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tl.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  4'659 bytes of readonly  code memory
+     77 bytes of readonly  data memory
+  4'272 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
